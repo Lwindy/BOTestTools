@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BOTestTools_Example' do
+  pod 'BOTestTools', :path => '../'
+
+  target 'BOTestTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

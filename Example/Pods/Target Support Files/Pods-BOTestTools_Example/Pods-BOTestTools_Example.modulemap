@@ -1,0 +1,6 @@
+framework module Pods_BOTestTools_Example {
+  umbrella header "Pods-BOTestTools_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

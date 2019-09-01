@@ -1,0 +1,16 @@
+PODS:
+  - BOTestTools (0.1.0)
+
+DEPENDENCIES:
+  - BOTestTools (from `../`)
+
+EXTERNAL SOURCES:
+  BOTestTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BOTestTools: 5e5aa1fc6f0116453ed36f46cd3b8740e7ee9082
+
+PODFILE CHECKSUM: 8d3b70740b9865a2f33c923466152c90b5c33e1e
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module BOTestTools {
+  umbrella header "BOTestTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

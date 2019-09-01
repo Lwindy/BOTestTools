@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="BOTestTools_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jSF-fH-au9">
+                                <rect key="frame" x="107.5" y="311.5" width="160" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Agz-ob-R7j"/>
+                                    <constraint firstAttribute="width" constant="160" id="cfL-Uo-eba"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="这是一个按钮">
+                                    <color key="titleColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onBtnClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="yob-dw-Nqr"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M03-AO-s14">
+                                <rect key="frame" x="67" y="114" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="M03-AO-s14" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="94" id="L7e-bK-QyW"/>
+                            <constraint firstItem="jSF-fH-au9" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="WwY-TY-vxC"/>
+                            <constraint firstItem="M03-AO-s14" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="fpK-DT-cYF"/>
+                            <constraint firstItem="jSF-fH-au9" firstAttribute="top" secondItem="M03-AO-s14" secondAttribute="bottom" constant="70" id="lJ4-Ak-0Ve"/>
+                            <constraint firstItem="jSF-fH-au9" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="qAJ-3c-4jj"/>
+                            <constraint firstItem="M03-AO-s14" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="51" id="zov-hE-0gl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btn" destination="jSF-fH-au9" id="HpZ-XG-H93"/>
+                        <outlet property="imgView" destination="M03-AO-s14" id="MB5-wT-4Sx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,27 @@
+{
+  "name": "BOTestTools",
+  "version": "0.1.0",
+  "summary": "A short description of BOTestTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LWindy/BOTestTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LWindy": "windy.lin@163.com"
+  },
+  "source": {
+    "git": "https://github.com/LWindy/BOTestTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BOTestTools/Classes/**/*",
+  "resource_bundles": {
+    "BOTestTools": [
+      "BOTestTools/Assets/*.xcassets"
+    ]
+  }
+}
